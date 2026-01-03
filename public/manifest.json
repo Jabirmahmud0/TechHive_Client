@@ -1,0 +1,23 @@
+{
+  "name": "TechHive - AI-Powered Electronics Store",
+  "short_name": "TechHive",
+  "description": "The future of tech shopping with AI-powered recommendations",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0A0A0A",
+  "theme_color": "#00FFFF",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/techhive-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/techhive-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
