@@ -4,13 +4,13 @@ import { getAuth, GoogleAuthProvider } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAJ3smGZI715cEBws6bD-DDjhhePQ9o5mc",
-  authDomain: "newera-87968.firebaseapp.com",
-  projectId: "newera-87968",
-  storageBucket: "newera-87968.firebasestorage.app",
-  messagingSenderId: "405040555192",
-  appId: "1:405040555192:web:64338d9f2e334d8c86004d",
-  measurementId: "G-EZ7CPJYEPK"
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID,
+  measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID
 };
 
 // Initialize Firebase
